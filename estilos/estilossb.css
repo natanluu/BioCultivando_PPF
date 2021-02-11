@@ -58,6 +58,16 @@ a:active {
 	color: #FC7F4A;
 }
 
+.tituloof{
+	text-indent: 50px;
+	font-weight: bold;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 20px;
+	color: #FC7F4A;
+	margin: 0px 300px 70px 300px;
+}
+
 .opcoes{
     display: inline-flex;
     width:900px;
@@ -84,6 +94,7 @@ ul {
 	top:0;
 	left: 0;
 	width: 100%;
+	color: black;
 }
 
 
@@ -100,7 +111,7 @@ ul {
 	float: left;
 
 	margin: 40px 0px 50px 7px;
-	padding: 30px 60px 70px 25px;
+	padding: 30px 60px 5px 25px;
 }
 
 .cardes img {
@@ -121,6 +132,10 @@ ul {
 	display: flex;
     width: 1200px;
     justify-content: space-around;
+}
+
+.botoes a{
+	color:black;
 }
 
 .botv{
@@ -154,8 +169,16 @@ ul {
 
 .infor{
 	color: #615E30;
+	text-align: justify;
+	font-size: 20px;
+	margin: 0px 300px 50px 300px;
+	text-indent: 50px;
+}
+
+.infortb{
+	color: #615E30;
 	text-align: center;
-	margin: 5% 25% 5% 19%;
+	margin: 20px 260px 50px 260px;
 }
 
 p.just{
@@ -169,9 +192,11 @@ p.just{
 	list-style-type: none;
 	overflow: hidden;
 	position: relative;
+	top: 20px;
 	left: 540px;
 	width: 20%;	
 }
+
 
 table{
 	border-color: black; 
