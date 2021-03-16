@@ -1,5 +1,5 @@
 body{
-	background-color:#D2F1FF;
+	background-color:#E4E4E4;
 }
 
 .body{
@@ -87,7 +87,7 @@ a:active {
 ul {
 	list-style-type: none;
 	margin: 0% 25% 0% 0%;
-	padding: 0% 60% 0% 40%;
+	padding: 0% 27% 0% 40%;
 	overflow: hidden;
 	background-color:#F2805A;
 	position: fixed;
@@ -127,8 +127,8 @@ ul {
 }
 
 .botoes{
-	margin: 5px 0px 5px 30px;
-	padding: 10px 10px 5px 30px;
+	margin: 5px 0px 5px 60px;
+	padding: 10px 10px 5px 5px;
 	display: flex;
     width: 1200px;
     justify-content: space-around;
@@ -157,7 +157,7 @@ ul {
 }
 
 .imagem{
-	margin: 2% 40% 5% 37%;
+	margin: 2% 40% 5% 38%;
 }
 
 .imagem img{
@@ -178,7 +178,7 @@ ul {
 .infortb{
 	color: #615E30;
 	text-align: center;
-	margin: 20px 260px 50px 260px;
+	margin: 20px 260px 50px 470px;
 }
 
 p.just{
@@ -217,3 +217,18 @@ img.bord{
 	padding: 10px 10px 10px 10px;
 }
 
+.w3-button {
+	margin: -160% 50% 10% 150%;
+}
+
+#Demo{
+	background-color: #FC7F4A;
+	margin: 0% 0% 0% 325%;
+	padding: 50px 150px 50px 150px;
+}
+
+#demo{
+	background-color: #FC7F4A;
+	padding: 30px 20px 30px 20px;
+	text-align: justify;
+}

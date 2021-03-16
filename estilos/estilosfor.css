@@ -1,5 +1,5 @@
 body{
-	background-color:#D2F1FF
+	background-color:#E4E4E4;
 }
 
 .body{
@@ -84,7 +84,6 @@ a:active {
 .botv{
 	font-size: 15px;
 	font-style: italic;
-	color: #0000;
 	width: 150px;
 	height: 60px;
 	background-color: #F2805A;
