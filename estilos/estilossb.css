@@ -71,7 +71,7 @@ a:active {
 .opcoes{
     display: inline-flex;
     width:900px;
-    margin: 3% 5% 0% 25%;
+    margin: 3% 5% 0% 26%;
     padding: 0% 0% 0% 0%;
 
 }
@@ -94,24 +94,29 @@ ul {
 	top:0;
 	left: 0;
 	width: 100%;
-	color: black;
+	color: white;
+}
+
+#sug{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 
 .plan{
-	margin: 10px 50px 10px 70px;
+	margin: 10px 100px 10px 100px;
 	padding: 0px 10px 400px 150px;
 }
 
 .cardes{
-	max-width:250px;
-	max-height: 250px;
+	max-width: 500px;
+	max-height: 500px;
 
 
 	float: left;
 
-	margin: 40px 0px 50px 7px;
-	padding: 30px 60px 5px 25px;
+	margin: 40px 0px -10px 7px;
+	padding: 30px 60px 0px 25px;
 }
 
 .cardes img {
@@ -127,7 +132,7 @@ ul {
 }
 
 .botoes{
-	margin: 5px 0px 5px 60px;
+	margin: 5px 70px 5px 70px;
 	padding: 10px 10px 5px 5px;
 	display: flex;
     width: 1200px;
@@ -135,18 +140,18 @@ ul {
 }
 
 .botoes a{
-	color:black;
+	color:white;
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .botv{
 	font-size: 15px;
-	font-style: italic;
 	color: #0000;
 	width: 180px;
 	height: 60px;
 	background-color: #F2805A;
 	padding: 10px 10px 10px 10px;
-	border: 1;
+	border: 0;
 
 }
 
@@ -186,16 +191,14 @@ p.just{
 }
 
 .dev{
-	color: #FC7F4A;
-	text-shadow: white 0.1em 0.1em 0.2em;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
 	font-size: 14px;
 	list-style-type: none;
-	overflow: hidden;
+	display: inline-flex;
+	margin-bottom: 2px;
 	position: relative;
-	top: 20px;
-	left: 540px;
-	width: 20%;	
-}
+	}
 
 
 table{
@@ -231,4 +234,21 @@ img.bord{
 	background-color: #FC7F4A;
 	padding: 30px 20px 30px 20px;
 	text-align: justify;
+}
+
+#foot{
+	background-color: #FC7F4A;
+}
+
+#foote{
+	background-color: #FC7F4A;
+	position: absolute;
+	bottom: -95%;
+	margin-bottom: 50px;
+}
+
+.fras{
+	display: flex;
+	word-spacing: 5px;
+	margin: 0px 7px 0px 7px;
 }
